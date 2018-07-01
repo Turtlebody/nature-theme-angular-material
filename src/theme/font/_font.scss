@@ -1,0 +1,179 @@
+
+// .tb-font-Sedgwick-Ave{
+//     font-family: $font-Sedgwick-Ave;
+// }
+.tb-font-rubik{
+    font-family: $font-rubik;
+}
+.tb-font-roboto-mono{
+    font-family: $font-roboto-mono;
+}
+.tb-font-helvetica-neue{
+    font-family: $font-helvetica-neue;
+}
+.tb-font-avenir{
+    font-family: $font-avenir;
+}
+
+//  .tb-font-Roboto{
+//     font-family: $font-Roboto;
+// }
+.tb-font-noto-serif{
+    font-family: $font-noto-serif;
+}
+.tb-font-open-sans{
+    font-family: $font-open-sans;
+}
+.tb-font-comfortaa{
+    font-family: $font-comfortaa;
+}
+
+
+.tb-font-work-sans{
+    font-family: $font-work-sans;
+}
+
+.tb-font-thin{
+    font-weight: $font-thin;
+}
+.tb-font-lightest{
+    font-weight: $font-lightest;
+}
+.tb-font-light{
+    font-weight: $font-light;
+}
+
+.tb-font-medium{
+    font-weight: $font-medium;
+}
+.tb-font-normal{
+    font-weight: $font-normal;
+}
+.tb-font-bold{
+    font-weight: $font-bold;
+}
+
+.tb-font-bolder{
+    font-weight: $font-bolder;
+}
+.tb-font-106{
+    font-size: $font-106;
+}
+.tb-font-84{
+    font-size: 84px;
+}
+.tb-font-76{
+    font-size: 76px;
+}
+.tb-font-64{
+    font-size: 64px;
+}
+.tb-font-60{
+    font-size: 60px;
+}
+.tb-font-56{
+    font-size: 56px;
+}
+
+.tb-font-48{
+    font-size: $font-48;
+}
+.tb-font-40{
+    font-size: $font-40;
+}
+.tb-font-38{
+    font-size: $font-38;
+}
+.tb-font-36{
+    font-size: $font-36;
+}
+.tb-font-34{
+    font-size: $font-34;
+}
+.tb-font-32{
+    font-size: $font-32;
+}
+.tb-font-30{
+    font-size: $font-30;
+}
+.tb-font-28{
+    font-size: $font-28;
+}
+.tb-font-26{
+    font-size: $font-26;
+ }
+
+
+.tb-font-24{
+    font-size: $font-24;
+ }
+
+ .tb-font-22{
+    font-size: $font-22;
+ }
+
+.tb-font-20{
+    font-size: $font-20;
+ }
+
+.tb-font-18{
+    font-size: $font-18;
+ }
+
+.tb-font-16{
+    font-size: $font-16;
+ }
+
+.tb-font-14{
+    font-size: $font-14;
+ }
+
+ .tb-font-13{
+    font-size: $font-13;
+ }
+.tb-font-12{
+    font-size: $font-12;
+ }
+ .tb-font-11{
+    font-size: $font-11;
+ }
+ .tb-font-10{
+    font-size: $font-10;
+ }
+ .tb-font-9{
+    font-size: $font-9;
+ }
+ .tb-font-8{
+    font-size: $font-8;
+ }
+ .tb-font-7{
+        font-size: $font-7;
+}
+ .tb-font-6{
+    font-size: $font-6;
+ }
+
+
+ .tb-font-tab{
+font-size: $font-12;
+ }
+
+
+@media (max-width: $resM) {
+ .tb-font-tab{
+     font-size: $font-10;
+ }
+}
+
+@media (max-width: $resS) {
+ .tb-font-tab{
+     font-size: $font-8;
+ }
+}
+
+// p,h6,h4,h5,span,a,h3,h2{
+//  font-family: $font-Roboto;
+// }
+p,h6,h4,h5,span,a,h3,h2,div,h1{
+    font-family: $font-open-sans;
+   }

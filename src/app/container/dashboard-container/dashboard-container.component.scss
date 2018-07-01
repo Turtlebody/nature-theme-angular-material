@@ -1,0 +1,28 @@
+
+.container{
+
+}
+p{
+    padding: 16px;
+    font-size: 24px;
+}
+.top-bar{
+    position: relative;
+    z-index: 2;
+}
+ul li{
+    list-style-type: none;
+    outline: none;
+    cursor:pointer;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    height: 44px;
+    padding: 0 36px;
+    overflow: hidden;
+}
+li {
+
+}

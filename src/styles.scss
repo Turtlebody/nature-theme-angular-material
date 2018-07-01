@@ -1,0 +1,49 @@
+// /* You can add global styles to this file, and also import other style files */
+
+
+$tb-theme--primary: #425F4B;
+$tb-theme--secondary:#ed2553;
+$tb-theme--background: #ffffff;
+
+
+html {
+    height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin : 0;
+}
+
+html::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #909090;
+}
+
+*::-webkit-scrollbar {
+    background: transparent;
+    width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #909090;
+}
+
+* {
+    // box-sizing:  border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: $tb-theme--background;
+}
+
+@import "theme/index";
+@import "theme/core/class";
+
+
+

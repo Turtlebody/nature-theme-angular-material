@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div class="top-bar">
+    <div class="" fxLayout="row">
+      <p class="tb-color-text--grey-800 tb-padding-20 tb-font-normal tb-font-24">NF</p>
+      <div fxFlex></div>
+      <ul fxLayout="row">
+        <li class="tb-color--white" *ngFor="let navItem of _vmNavItems.dashboard" [routerLink]="[navItem.route]" >
+          <i class="tb-color--white">{{navItem.icon}}</i>{{navItem.name}}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="router-content">
+    <router-outlet></router-outlet>
+  </div>
+</div>
