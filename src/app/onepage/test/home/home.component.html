@@ -1,18 +1,18 @@
 <div class="main " fxLayout="row">
-    <div class="login-container mat-color--white" fxLayout="column" fxFlex="40%">
+    <div class="login-container tb-color-bg--md-grey-50" fxLayout="column" fxFlex="40%">
         <div class="tb-padding-36"></div>
         <div class="tb-padding-56">
-            <div class="container">
-                <div class="form">
+            <div class="container  tdw-position-relative">
+                <div class="form tb-padding-20-20">
                     <div class="tb-text-align-left">
-                        <span class="tb-font-24 tb-color--md-blue-grey-100">We are </span>
-                        <span class="tb-font-24 tb-font-normal tb-color--md-blue-grey-700">Natura</span>
+                        <span class="tb-font--md-h3 tb-color--md-grey-400">We are </span>
+                        <span class="tb-font--md-h3 tb-font-normal tb-color--md-black">Natura</span>
                     </div>
                     <div class="tb-padding-12"></div>
-                    <span class="tb-font-16">Welcome back. Please login to continue. </span>
-                    <div class="tb-padding-12"></div>
+                    <span class="tb-font--md-body-1 tb-color--md-grey-400">Welcome back. Please login to continue. </span>
+                    <div class="tb-padding-36"></div>
                     <form>
-                        <div class="card" fxLayout="column">
+                        <div class="card tb-color-bg--white" fxLayout="column">
                             <div class="input-container">
                                 <input type="#{type}" id="#{label}" required="required" />
                                 <label for="#{label}">Username</label>
@@ -28,30 +28,49 @@
                         <div class="footer">
                             <div fxLayout="row">
                                 <input class="tb-rect-16" type=checkbox />
-                                <a href="#">Remember me</a>
+                                <a class="tb-color--md-grey-400" href="#">Remember me</a>
                             </div>
                             <div fxFlex></div>
-                            <a href="#">Forgot your password?</a>
+                            <a class="tb-color--black" href="#">Forgot your password?</a>
                         </div>
 
                         <div class="tb-padding-16"></div>
 
                         <div fxLayout="row">
-                            <button class="tb-button tb-button--outline tb-button--primary tb-color-bg--black ">Login</button>
+                            <button class="tb-button tb-button--raised tb-color--white tb-color-bg--black ">Login</button>
                             <div class="tb-padding-16"></div>
-                            <button class="tb-button tb-button--outline ">Sign Up</button>
+                            <button class="tb-button tb-button--transparent  tb-color--md-grey-600 ">Sign Up</button>
                             <div fxFlex></div>
                         </div>
 
+                        <div class="tb-padding-36"></div>
+                        <p class="tb-font--md-body-2  tb-color--md-grey-600">By signing up, you are agree to Natura's </p>
+                        <h6 class="tb-font--md-body-2 tb-color--black">Terms and coditions
+                            <span class=" tb-color--md-grey-600">&nbsp;&&nbsp;</span>Privacy Policy </h6>
+                        <div class="tb-padding-36"></div>
                     </form>
 
                 </div>
+
             </div>
         </div>
+
     </div>
-    <div class="" fxFlex="60%">
-        <div class="background ">
+
+    <div class="" fxFlex>
+        <div class="background tb-position-relative">
             <img class="" src="./assets/img/nature1.jpg" />
+            <div class="footer-btn tb-position-absolute tb-z-index-1" fxLayout="row">
+                <button class="tb-button tb-button--transparent  tb-color--white">PREVIOUS</button>
+                <div class="tb-padding-16"></div>
+                <button class="tb-button tb-button--raised tb-color--white tb-color-bg--white-alpha-54">NEXT</button>
+            </div>
+            <div class="play-btn">
+                <button type="button" class="tb-button tb-button--fab tb-button--raised tb-color-bg--md-pink-600 ">
+                    <i class="material-icons tb-font--md-h4 tb tb-color--white">play_arrow</i>
+                </button>
+            </div>
         </div>
+
     </div>
 </div>

@@ -1,25 +1,3 @@
-body {
-    background-color: white;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-code {
-    background: #f4f5f6;
-    border-radius: .2rem;
-    font-size: 105%;
-    margin: 0.2rem;
-    padding: .2rem .6rem;
-    white-space: nowrap;
-}
 
 .tb-button {
     display: inline-flex;
@@ -38,7 +16,6 @@ code {
     vertical-align: middle;
     padding: 0 1.25rem;
     min-width: 72px;
-    background-color: unset;
 }
 
 .tb-button:active {
@@ -71,6 +48,13 @@ code {
     vertical-align: middle;
     padding: 0 1rem;
     min-width: 72px;
+}
+
+.tb-button.tb-button--transparent {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.12);
+  border-width: 0.1rem;
+  background-color: transparent;
 }
 
 .tb-button.tb-button--mini:active {
@@ -186,14 +170,12 @@ code {
 }
 
 .tb-button--raised {
-    background-color: buttonface;
     box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.14), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
     transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tb-button--raised:hover,
 .tb-button--raised:focus {
-    background-color: buttonface;
     box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 1px 10px 0px rgba(0, 0, 0, 0.14), 0px 4px 5px 0px rgba(0, 0, 0, 0.12);
 }
 

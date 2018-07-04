@@ -1,35 +1,29 @@
-$accent: null;
 $white: #ffffff;
 $black: #000000;
-
 $accent: #ed2553;
-$max-width: 460px;
+
 .main {
     z-index: 1;
     position: fixed;
     top: 0;
     height: 100vh;
-    a{
+    a {
         text-decoration: none;
-        outline: none;  
+        outline: none;
     }
 }
 
 .login-container {
-    // box-shadow: 2px 4px 20px 0px rgba(0, 0, 00, 0.3);
-    background-color: #fff;
-
     .container {
         position: relative;
-        // max-width: $max-width;
         width: 100%;
         margin: 0 auto 100px;
+      
     }
     .form {
-     .card{
-         box-shadow:0 20px 28px -10px #c7c7c7;
-     }
-        
+        .card {
+            box-shadow: 0 20px 28px -10px #c7c7c7;
+        }
         .input-container {
             position: relative;
             display: flex;
@@ -81,7 +75,6 @@ $max-width: 460px;
                 line-height: 62px;
                 transition: 0.2s ease;
             }
-         
         }
         &.alt {
             position: absolute;
@@ -113,29 +106,8 @@ $max-width: 460px;
                     color: rgba($white, 0.8);
                 }
             }
-            .footer{
-              
-            }
+            .footer {}
             /* Button */
-            .button-container {
-                button {
-                    width: 100%;
-                    background: $white;
-                    border-color: $white;
-                    span {
-                        color: $accent;
-                    }
-                    &:hover {
-                        background: rgba($white, 0.9);
-                    }
-                    &:active,
-                    &:focus {
-                        &:before {
-                            display: none;
-                        }
-                    }
-                }
-            }
         }
     }
 }
@@ -150,4 +122,23 @@ $max-width: 460px;
         width: 100%;
         height: 100%;
     }
+    .play-btn {
+        z-index: 3;
+        position: absolute;
+        left: -32px;
+        bottom: 96px;
+    }
+}
+
+.tb-position-relative {
+    position: relative;
+}
+
+.tb-position-absolute {
+    position: absolute;
+}
+
+.footer-btn {
+    bottom: 46px;
+    right: 46px;
 }
