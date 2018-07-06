@@ -1,6 +1,6 @@
 // /* You can add global styles to this file, and also import other style files */
 
-
+@import "theme/tb/index";
 $tb-theme--primary: #425F4B;
 $tb-theme--secondary:#ed2553;
 $tb-theme--background: #ffffff;
@@ -43,7 +43,7 @@ body {
 }
 
 @import "theme/index";
-@import "theme/core/class";
+
 
 
 

@@ -1,3 +1,19 @@
-body{
-    background-color: white;
-}
+p {
+    width:200px;
+    background:lightgray;
+    margin: 100px auto;
+    text-align:center;
+    padding:20px;
+    font-size:1.5em;
+  }
+
+  div{
+    margin: 0 auto;
+    text-align: center;
+    width:200px;
+ }
+ .rotate{
+    width:100px;
+    height:100px;
+    border:solid 1px red;
+ }

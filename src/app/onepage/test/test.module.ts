@@ -10,6 +10,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { HomeComponent,TestComponent } from './index';
 
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 const routes: ModuleWithProviders = RouterModule.forChild([
   {
     path: '',
@@ -36,7 +37,7 @@ const routes: ModuleWithProviders = RouterModule.forChild([
     // MaterialModule,
     FormsModule,
     FlexLayoutModule,
-    // MdcIconModule,
+    // BrowserAnimationsModule,
     routes
   ],
   declarations: [

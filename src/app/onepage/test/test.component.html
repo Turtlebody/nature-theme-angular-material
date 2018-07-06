@@ -1,1 +1,8 @@
-<p class="mdc-color-text--grey-600">Test works</p>
+<p [@myAwesomeAnimation]='state' (mouseenter)="animateMe($event, 'large')" (mouseleave)="animateMe($event, 'small')">I will animate</p>
+
+<div>
+    <button (click)="animate()">Click Me</button>
+    <div [@myanimation] = "divstate" class="rotate">
+       <img src="assets/img/nature1.jpg" width="100" height="100">
+    </div>
+ </div>

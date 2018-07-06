@@ -1,5 +1,14 @@
+/* ************************************************************************
+   deprecated
 
+   */
+/*  *************************************************************************88
+             All Derecated 
+*/
+/**
+*/
 .tb-button {
+  background-color: transparent;
   display: inline-flex;
   position: relative;
   align-items: center;
@@ -14,7 +23,6 @@
   -webkit-appearance: none;
   overflow: hidden;
   vertical-align: middle;
-  background-color: transparent;
   padding: 0 1.25rem;
   min-width: 72px; }
   .tb-button:active {
@@ -40,7 +48,6 @@
   -webkit-appearance: none;
   overflow: hidden;
   vertical-align: middle;
-  background-color: transparent;
   padding: 0 1rem;
   min-width: 72px; }
   .tb-button.tb-button--mini:active {
@@ -66,7 +73,6 @@
   -webkit-appearance: none;
   overflow: hidden;
   vertical-align: middle;
-  background-color: transparent;
   width: 2rem;
   min-width: unset;
   padding: 0; }
@@ -93,7 +99,6 @@
   -webkit-appearance: none;
   overflow: hidden;
   vertical-align: middle;
-  background-color: transparent;
   width: 3rem;
   min-width: unset;
   padding: 0; }
@@ -120,7 +125,6 @@
   -webkit-appearance: none;
   overflow: hidden;
   vertical-align: middle;
-  background-color: transparent;
   width: 4rem;
   min-width: unset;
   padding: 0; }
@@ -149,29 +153,29 @@
 
 .tb-button--outline.tb-button--primary {
   border-style: solid;
-  border-color: blue;
+  border-color: #425F4B;
   border-width: 0.1rem;
-  color: blue; }
+  color: #425F4B; }
 
 .tb-button--raised.tb-button--primary {
-  background-color: blue;
+  background-color: #425F4B;
   color: rgba(255, 255, 255, 0.87); }
 
 .tb-button--primary {
-  color: blue; }
+  color: #425F4B; }
 
 .tb-button--outline.tb-button--secondary {
   border-style: solid;
-  border-color: purple;
+  border-color: #ed2553;
   border-width: 0.1rem;
-  color: purple; }
+  color: #ed2553; }
 
 .tb-button--raised.tb-button--secondary {
-  background-color: purple;
+  background-color: #ed2553;
   color: rgba(255, 255, 255, 0.87); }
 
 .tb-button--secondary {
-  color: purple; }
+  color: #ed2553; }
 
 .tb-button--outline.tb-button--background {
   border-style: solid;
@@ -224,17 +228,16 @@
 
 .tb-button--danger {
   color: red; }
-
-
-.tb-button--outline.tb-button--white {
-  border-style: solid;
-  border-color: white;
-  border-width: 0.1rem;
-  color: white; }
-
-.tb-button--raised.tb-button--white {
-  background-color: white;
-  color: rgba(0, 0, 0, 0.87); }
-
-.tb-button--white {
-  color: white; }
+  
+  .tb-button--outline.tb-button--white {
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1rem;
+    color: white; }
+  
+  .tb-button--raised.tb-button--white {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.87); }
+  
+  .tb-button--white {
+    color: white; }
